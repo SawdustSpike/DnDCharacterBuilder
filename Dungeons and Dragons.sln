@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDApp.Blazor", "DnDApp.Blazor.csproj", "{31AC8CAB-FDCE-4913-A54F-20534AEC4778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDApp.Domain", "..\DnDApp.Domain\DnDApp.Domain.csproj", "{BC27217C-551A-4279-BB71-2EE8CC231665}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDApp.ExternalService.Starwars.Api", "..\DnDApp.ExternalService.Starwars.Api\DnDApp.ExternalService.Starwars.Api.csproj", "{EF3B087F-505F-4009-BB63-A4636850AD64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDApp.Services", "..\DnDApp.Services\DnDApp.Services.csproj", "{D7D7B827-5F62-41F5-8E9F-E376374DD131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnDAppTests", "..\DnDAppTests\DnDAppTests.csproj", "{9E50498E-D1B3-44B9-9396-2E3359C7CE99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31AC8CAB-FDCE-4913-A54F-20534AEC4778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31AC8CAB-FDCE-4913-A54F-20534AEC4778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31AC8CAB-FDCE-4913-A54F-20534AEC4778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31AC8CAB-FDCE-4913-A54F-20534AEC4778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC27217C-551A-4279-BB71-2EE8CC231665}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC27217C-551A-4279-BB71-2EE8CC231665}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC27217C-551A-4279-BB71-2EE8CC231665}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC27217C-551A-4279-BB71-2EE8CC231665}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF3B087F-505F-4009-BB63-A4636850AD64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF3B087F-505F-4009-BB63-A4636850AD64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF3B087F-505F-4009-BB63-A4636850AD64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF3B087F-505F-4009-BB63-A4636850AD64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D7B827-5F62-41F5-8E9F-E376374DD131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D7B827-5F62-41F5-8E9F-E376374DD131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D7B827-5F62-41F5-8E9F-E376374DD131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D7B827-5F62-41F5-8E9F-E376374DD131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E50498E-D1B3-44B9-9396-2E3359C7CE99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E50498E-D1B3-44B9-9396-2E3359C7CE99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E50498E-D1B3-44B9-9396-2E3359C7CE99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E50498E-D1B3-44B9-9396-2E3359C7CE99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {292F0693-F9CB-4EEB-85CD-1285E34A32EB}
+	EndGlobalSection
+EndGlobal

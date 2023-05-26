@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UAPKybyphwkGJar+1aqelF1lHkjeGRyTbvUKWJq4yCD9QDPFlh/zKF+Egw+l42Gj1jTXqFEGwCErUT+pN4rgbg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.Services\\DnDApp.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}
