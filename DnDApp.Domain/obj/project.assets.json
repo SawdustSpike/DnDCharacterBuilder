@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.Domain\\DnDApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj",
       "projectName": "DnDApp.Domain",
-      "projectPath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.Domain\\DnDApp.Domain.csproj",
+      "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj",
       "packagesPath": "C:\\Users\\spike\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.Domain\\obj\\",
+      "outputPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\spike\\AppData\\Roaming\\NuGet\\NuGet.Config",

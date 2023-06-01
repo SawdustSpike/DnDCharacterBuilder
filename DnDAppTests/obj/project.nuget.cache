@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eDfaFkQwYkeOJ3N1JuNDGT3ScDS5Ss0leOK1k43/Dx8wdal4dHbaqCEV2kmM+0Fc660sNv7ik2WcyXAJQxFSMA==",
+  "dgSpecHash": "aNnDRC4FktQXzJbep6c76DEnROkisTRQqhMRVHpxSF16YgPeHn0gxcB3sHcYUYr+Nv2ay8KC43lMGGe4Qk254A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDAppTests\\DnDAppTests.csproj",
+  "projectFilePath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDAppTests\\DnDAppTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\spike\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\spike\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",

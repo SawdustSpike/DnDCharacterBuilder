@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vzQ7xB4w4FB6AtDXFcwpGrZUqqyqT6YfrjB0280DBvIuOmkLu+lIuhmAYB/9K+eAkeWU34Qzo+7sgoPGB3SJAA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\spike\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -6,9 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DnDApp.Domain\DnDApp.Domain.csproj" />
-    <ProjectReference Include="..\DnDApp.ExternalService.Starwars.Api\DnDApp.ExternalService.Starwars.Api.csproj" />
-  </ItemGroup>
+ 
 
 </Project>

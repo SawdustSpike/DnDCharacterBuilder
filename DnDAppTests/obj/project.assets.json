@@ -1712,16 +1712,6 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "DnDApp.ExternalService.Starwars.Api/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/DnDApp.ExternalService.Starwars.Api.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DnDApp.ExternalService.Starwars.Api.dll": {}
-        }
       }
     }
   },
@@ -5517,16 +5507,10 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "DnDApp.ExternalService.Starwars.Api/1.0.0": {
-      "type": "project",
-      "path": "../DnDApp.ExternalService.Starwars.Api/DnDApp.ExternalService.Starwars.Api.csproj",
-      "msbuildProject": "../DnDApp.ExternalService.Starwars.Api/DnDApp.ExternalService.Starwars.Api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "DnDApp.ExternalService.Starwars.Api >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.4.2",
@@ -5539,11 +5523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDAppTests\\DnDAppTests.csproj",
+      "projectUniqueName": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDAppTests\\DnDAppTests.csproj",
       "projectName": "DnDAppTests",
-      "projectPath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDAppTests\\DnDAppTests.csproj",
+      "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDAppTests\\DnDAppTests.csproj",
       "packagesPath": "C:\\Users\\spike\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDAppTests\\obj\\",
+      "outputPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDAppTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\spike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5559,11 +5543,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.ExternalService.Starwars.Api\\DnDApp.ExternalService.Starwars.Api.csproj": {
-              "projectPath": "C:\\Users\\spike\\source\\Repos\\Github Demo\\DnDApp.ExternalService.Starwars.Api\\DnDApp.ExternalService.Starwars.Api.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

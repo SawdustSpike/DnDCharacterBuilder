@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DnDApp.Domain.Models
 {
-    internal class AbilityScore
+    public class AbilityScore
     {
+
     }
 }

@@ -22,8 +22,6 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\DnDApp.ExternalService.Starwars.Api\DnDApp.ExternalService.Starwars.Api.csproj" />
-  </ItemGroup>
+
 
 </Project>
