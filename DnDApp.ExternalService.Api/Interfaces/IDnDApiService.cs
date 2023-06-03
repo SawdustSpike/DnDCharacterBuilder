@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DnDApp.ExternalService.DnDApi.Interfaces
 {
-    internal interface IDnDApiService
+    internal interface IDnDApiService<TRequest, TResponse> where TRequest : DnDApiRequest<TResponse>
     {
+        public Task<TResponse> GetResponseAsync(TRequest request);
     }
 }

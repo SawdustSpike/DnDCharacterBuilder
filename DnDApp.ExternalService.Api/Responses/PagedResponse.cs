@@ -1,12 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DnDApp.ExternalService.DnDApi.Responses
+﻿namespace DnDApp.ExternalService.DnDApi.Responses
 {
-    internal class PagedResponse
+    internal class PagedResponse<TResults>
     {
+        public int count { get; set; }
+
+        public string? next { get; set; }
+
+        public object? previous { get; set; }
+
+        public TResults[]? results { get; set; }
     }
 }

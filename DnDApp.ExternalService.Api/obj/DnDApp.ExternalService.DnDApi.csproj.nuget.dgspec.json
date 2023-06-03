@@ -4,14 +4,14 @@
     "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj": {
+    "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj",
-        "projectName": "DnDApp.ExternalService.DnDApi",
-        "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj",
+        "projectUniqueName": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj",
+        "projectName": "DnDApp.Domain",
+        "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj",
         "packagesPath": "C:\\Users\\spike\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\obj\\",
+        "outputPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\spike\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,89 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.13, 6.0.13]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.1.23115.2\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj",
+        "projectName": "DnDApp.ExternalService.DnDApi",
+        "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\DnDApp.ExternalService.DnDApi.csproj",
+        "packagesPath": "C:\\Users\\spike\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.ExternalService.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\spike\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\spike\\source\\repos new\\Dungeons and Dragons\\DnDApp.Domain\\DnDApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

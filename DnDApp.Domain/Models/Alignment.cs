@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DnDApp.Domain.Models
 {
-    internal class Alignment
+    public class Alignment
     {
     }
 }
